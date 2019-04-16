@@ -1,0 +1,7 @@
+node_modules/
+.next/
+.idea/
+.env
+prod.env
+.history/
+now-secrets.json
