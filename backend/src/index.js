@@ -39,8 +39,9 @@ server.start({
             credentials: true,
             origin: [process.env.FRONTEND_URL, 'http://localhost:3000'],
         },
+        playground: false
     },
     deets => {
         console.log(`Server is now running on port http:/localhost:${deets.port}`);
-    }
+    },
 );
